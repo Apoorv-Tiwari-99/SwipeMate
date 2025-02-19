@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
-import SideBar from "../components/SideBar.jsx";
-import Header from "../components/Header.jsx";
+import SideBar from "../components/Sidebar";
+import Header from "../components/Header";
+
 
 import { useMatchStore } from "../store/useMatchStore.js";
 import { Frown } from "lucide-react";
-import SwipeArea from "../components/SwipeArea.jsx";
-import SwipeFeedback from "../components/SwipeFeedback.jsx";
+import SwipeArea from "../components/SwipeArea";
+import SwipeFeedback from "../components/SwipeFeedback";
 import { useAuthStore } from "../store/useAuthStore.js";
 export const HomePage = () => {
   const {
