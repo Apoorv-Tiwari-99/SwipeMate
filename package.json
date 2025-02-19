@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon api/server.js",
-    "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "build": "npm install --legacy-peer-deps && npm install --prefix client --legacy-peer-deps && npm run build --prefix client",
     "start": "node api/server.js"
   },
   "keywords": [],
